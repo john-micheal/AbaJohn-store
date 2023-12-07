@@ -1,0 +1,67 @@
+﻿@model AbaJohn.ViewModel.categoeryViewModel
+
+@{
+    Layout = "_businessAccLayout";
+}
+
+
+<fieldset style="border: 1px solid #000000; padding: 20px; border-radius: 10px;  margin: 65px">
+    <legend style=" color:#000000; padding: 5px 10px; margin:4px 52px; width: 21%;" class="align-content-center">  Add New Category</legend>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form asp-action="Add_categoery" method="post">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="form-group ">
+                                <label asp-for="Name" class="control-label"></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm">
+
+                            <div class="form-group">
+                                <label asp-for="type" class="control-label"></label>
+                                <input asp-for="type" class="form-control" />
+                                <span asp-validation-for="type" class="text-danger"></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group">
+                        <input type="submit" value="Add" class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" asp-action="Index" asp-controller="Home">Back to Home List</a>
+            <a class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" asp-action="Show_all_category" asp-controller="Category">Back to Category List</a>
+            <a class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" asp-action="Add_product" asp-controller="Product">Add new Product</a>
+        </div>
+
+    </div>
+</fieldset>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+ }

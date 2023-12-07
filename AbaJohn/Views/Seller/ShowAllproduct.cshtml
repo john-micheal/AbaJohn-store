@@ -1,0 +1,70 @@
+﻿@model List<Product>
+@{
+    if (User.IsInRole("seller") || User.IsInRole("admin"))
+    {
+
+        Layout = "_businessAccLayout";
+    }
+}
+<table class="table table-bordered table-hover" width="50%">
+    <thead>Product table:</thead>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Size
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Code
+        </th>
+        <th>
+            CategoryID
+        </th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.price</td>
+            <td> </td>
+            <td></td>
+            <td>@item.Code</td>
+            <td>@item.CategoryID</td>
+            <td>
+
+
+                <a class="btn btn-success" asp-action="Edit_product" asp-controller="Product" asp-route-id="@item.ID">Edit</a>
+                <a class="btn btn-success" asp-action="Delete_product" asp-controller="Product" asp-route-id="@item.ID" onclick="ConfirmDelete(event)">Delete</a>
+
+
+
+            </td>
+        </tr>
+    }
+</table>
+
+<a class="btn btn-success" asp-action="Add_product" asp-controller="Product">Add new Product</a>
+<a class="btn btn-success" asp-action="Add_categoery" asp-controller="Product">Add new Categoery</a>
+
+
+
+
+
+
+<script>
+    function ConfirmDelete() {
+        document.getElementById("")
+        var accept = confirm("Are You Sure?");
+        if (accept == false) {
+            event.preventDefault();
+        }
+    }
+</script>

@@ -1,0 +1,110 @@
+﻿@model AbaJohn.ViewModel.productViewModel
+
+@{
+    ViewData["Title"] = "Add_product";
+}
+
+<h1>Add_product</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Add_product" method="post"  >
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="price" class="control-label"></label>
+                <input asp-for="price" class="form-control" />
+                <span asp-validation-for="price" class="text-danger"></span>
+            </div>
+         
+            <div class="form-group">
+                <label asp-for="Code" class="control-label"></label>
+                <input asp-for="Code" class="form-control" />
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="title" class="control-label"></label>
+                <input asp-for="title" class="form-control" />
+                <span asp-validation-for="title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BaseImg" class="control-label"></label>
+                <input asp-for="BaseImg" class="form-control" />
+                <span asp-validation-for="BaseImg" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Img1" class="control-label"></label>
+                <input asp-for="Img1" class="form-control" />
+                <span asp-validation-for="Img1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Img2" class="control-label"></label>
+                <input asp-for="Img2" class="form-control" />
+                <span asp-validation-for="Img2" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Img3" class="control-label"></label>
+                <input asp-for="Img3" class="form-control" />
+                <span asp-validation-for="Img3" class="text-danger"></span>
+            </div>
+
+
+
+             <div>
+                <select name="category_id" id="category_id" class="form-control">
+
+                @foreach (var category_item in ViewBag.cat)
+                {
+
+                        <option value="@category_item.Id">@category_item.Name</option>
+                }
+
+                  @*       if (category_item.Id == Model)
+                {
+                            <option value="@category_item.Id" selected>@category_item.Name</option>
+                }
+                else
+                {
+                            <option value="@category_item.Id">@category_item.Name</option>
+                } 
+
+                } *@
+            
+            </select>
+            </div>
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-controller="Home">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

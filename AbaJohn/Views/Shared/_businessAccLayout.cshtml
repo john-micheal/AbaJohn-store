@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+ 
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @if (User.IsInRole("seller") || User.IsInRole("admin"))
+    {
+        //for profile  SellerProfile
+        if (ViewBag.ViewName != null && ViewBag.ViewName.Contains("SellerProfile"))
+        {
+            <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+            <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+            <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+            <link rel="stylesheet" href="~/css/profile/demo.css" />
+
+            <link rel="stylesheet" href="~/css/profile/style.css">
+        }
+       
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="~/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="~/css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="~/css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="~/css/nice-select.css" type="text/css">
+        <link rel="stylesheet" href="~/css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="~/css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="~/css/style.css" type="text/css">
+    }
+   
+    <link rel="stylesheet" href="~/sidebar/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+     
+        <div class="logo_name">
+                <div class="logo-details">
+                    <img src="~/img/logo-withoutbackground.png" />
+                </div>
+        </div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+        @*partial view here *@
+         @if (User.IsInRole("seller") )
+        {
+            <partial name="_SideBarItemForSellerpartil" />
+        }
+        else if (User.IsInRole("admin"))
+        {
+            <partial name="_SideBarItemForAdminpartil" />
+        }
+
+    </div>
+  <section class="home-section">
+        @RenderBody()
+    </section>
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+<script>
+
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+    let searchBtn = document.querySelector(".bx-search");
+
+
+
+    closeBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("open");
+
+        menuBtnChange();//calling the function(optional)
+    });
+
+    searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
+        sidebar.classList.toggle("open");
+        menuBtnChange(); //calling the function(optional)
+    });
+
+    // following are the code to change sidebar button(optional)
+    function menuBtnChange() {
+        if (sidebar.classList.contains("open")) {
+            closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+            $("#user-img").css("display", "block");
+            $(".roleIcon").css("display", "block");
+
+        } else {
+            closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+            $("#user-img").css("display", "none");
+            $(".roleIcon").css("display", "none");
+
+        }
+    }
+</script>
+
+@if (User.IsInRole("seller") || User.IsInRole("admin"))
+{
+    <!-- Js Plugins -->
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.nicescroll.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/jquery.countdown.min.js"></script>
+    <script src="~/js/jquery.slicknav.js"></script>
+    <script src="~/js/mixitup.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/main.js"></script>
+}
+
+

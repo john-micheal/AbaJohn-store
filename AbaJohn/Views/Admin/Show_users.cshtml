@@ -1,0 +1,53 @@
+﻿@{
+    Layout = "_businessAccLayout";
+}
+
+<style>
+    .Rolebtns{
+        text-align:center; 
+        margin: 20px;
+        padding:15px ;
+    }
+
+    .btn{
+        width:18%
+    }
+</style>
+<div class="Rolebtns">
+    <button id="Seller" class="btn btn-dark" onClick="UpdateStatus(this.id);">Seller</button>
+    <button id="Admin" class="btn btn-dark" onClick="UpdateStatus(this.id);">Admin</button>
+    <button id="User" class="btn btn-dark" onClick="UpdateStatus(this.id);">Users</button>
+
+</div>
+
+
+    <div id="partial">
+    
+    </div>
+
+<script>
+
+    function UpdateStatus(id) {
+
+        $.ajax({
+            type: "POST",
+            url: "/Admin/Show_users/?id=" + id,
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+
+
+                $('#partial').html(data);
+
+
+
+              //  alert('Success');
+            },
+
+
+
+            error: function () {
+                alert('Error');
+            }
+        });
+    }
+</script>

@@ -1,0 +1,185 @@
+﻿@model AbaJohn.ViewModel.userViewModel
+
+@{
+    if (User.IsInRole("seller") || User.IsInRole("admin"))
+    {
+
+        Layout = "_businessAccLayout";
+    }
+
+}
+
+
+<fieldset style="border: 1px solid #000000; padding: 20px; border-radius: 10px; margin:15px">
+    <legend style=" color:#000000; padding: 5px 10px; margin:4px 52px; width: 23%;" class="align-content-center">  Add Business Account</legend>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form asp-action="AddBussnessACount" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <label asp-for="user_name" class="control-label"></label>
+                                <input asp-for="user_name" class="form-control" />
+                                <span asp-validation-for="user_name" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <label asp-for="name" class="control-label"></label>
+                                <input asp-for="name" class="form-control" />
+                                <span asp-validation-for="name" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="email" class="control-label"></label>
+                        <input asp-for="email" class="form-control" />
+                        <span asp-validation-for="email" class="text-danger"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <label asp-for="password" class="control-label"></label>
+                                <input asp-for="password" class="form-control" />
+                                <span asp-validation-for="password" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <label asp-for="confirm_password" class="control-label"></label>
+                                <input asp-for="confirm_password" class="form-control" />
+                                <span asp-validation-for="confirm_password" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <label asp-for="ImageFile" class="control-label"></label>
+                                <input asp-for="ImageFile" class="form-control" />
+                                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <label asp-for="age" class="control-label"></label>
+                                <input asp-for="age" class="form-control" />
+                                <span asp-validation-for="age" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                   <div class="row">
+                                   <div class="col-sm">
+                    
+                                        <div class="form-group">
+                                            <label asp-for="phone_number" class="control-label"></label>
+                                            <input asp-for="phone_number" class="form-control" />
+                                            <span asp-validation-for="phone_number" class="text-danger"></span>
+                                        </div>
+                                   </div>
+                                 <div class="col-sm">
+                                            <div class="form-group">
+                                                <label asp-for="home_number" class="control-label"></label>
+                                                <input asp-for="home_number" class="form-control" />
+                                                <span asp-validation-for="home_number" class="text-danger"></span>
+                                            </div>
+
+                            
+
+                                  </div>
+                    </div>
+                    
+
+
+                    <div class="row">
+                                <div class="col-sm">
+                     
+                                            <div class="form-group">
+                                                <label asp-for="country" class="control-label"></label>
+                                                <input asp-for="country" class="form-control" />
+                                                <span asp-validation-for="country" class="text-danger"></span>
+                                            </div>
+
+                                 </div>
+                                <div class="col-sm">
+                                            <div class="form-group">
+                                                <label asp-for="city" class="control-label"></label>
+                                                <input asp-for="city" class="form-control" />
+                                                <span asp-validation-for="city" class="text-danger"></span>
+                                            </div>
+
+                               
+
+                                  </div>
+                    </div>
+
+                    <div class="row">
+                                    <div class="col-sm">
+                      
+                                                <div class="form-group">
+                                                    <label asp-for="street_name" class="control-label"></label>
+                                                    <input asp-for="street_name" class="form-control" />
+                                                    <span asp-validation-for="street_name" class="text-danger"></span>
+                                                </div>
+                                     </div>
+                                    <div class="col-sm">
+                                                    <div class="form-group">
+                                                        <label asp-for="gender" class="control-label"></label>
+                                                        <select class="form-control" asp-for="gender">
+                                                            <option value="male">Male</option>
+                                                            <option value="female">Female</option>
+                                                        </select>
+                                                        <span asp-validation-for="gender" class="text-danger"></span>
+                                                    </div>
+                      
+
+                              
+
+                                    </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Role" class="control-label">Role</label>
+                        <select class="form-control" asp-for="Role">
+                            @foreach (var item in ViewBag.roles)
+                            {
+                                <option>@item.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Role" class="text-danger"></span>
+                    </div>
+
+
+
+
+
+                    <div class="container" style="display: inline-block">
+                        <div class="form-group" style="display: inline-block;">
+                            <input class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" type="submit" value="Add" />
+                        </div>
+
+                        <div style="display: inline-block;">
+                            <a class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" asp-action="index" asp-controller="Admin">Back</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</fieldset>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

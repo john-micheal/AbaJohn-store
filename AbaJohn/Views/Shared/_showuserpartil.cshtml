@@ -1,0 +1,26 @@
+﻿ @model List<ApplicationUser>
+
+<div class="container">
+    <div class="row" style="margin:30px; padding:10px">
+        <table class="table table-bordered" style="text-align:center">
+            <tr>
+                <th>Name</th>
+                <th>E-mails</th>
+                <th>Phonenumber</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.PhoneNumber</td>
+                </tr>
+            }
+        </table>
+        <div class="centered">
+            <a class="btn btn-dark" style="color:white; border: 1px solid red;   width: 250px; background-color: #000000" asp-action="index" asp-controller="home" class="btn btn-primary"> back </a>
+        </div>
+     
+    </div>
+</div>

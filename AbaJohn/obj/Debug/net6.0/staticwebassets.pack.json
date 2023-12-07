@@ -1,0 +1,1889 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AbaJohn.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AbaJohn.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Adminimg\\20230923160436_b8742036.JPG",
+      "PackagePath": "staticwebassets\\Files\\Adminimg\\20230923160436_b8742036.JPG"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Adminimg\\20230923163416_39034ff1.JPG",
+      "PackagePath": "staticwebassets\\Files\\Adminimg\\20230923163416_39034ff1.JPG"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20230923210811_389a84dd.JPG",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20230923210811_389a84dd.JPG"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005001304_53bf4726.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005001304_53bf4726.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005002648_5b71c86a.jpg",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005002648_5b71c86a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005110305_602fbac8.jpg",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005110305_602fbac8.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005110844_2d0e54a7.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005110844_2d0e54a7.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005111832_712d106f.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005111832_712d106f.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005112047_82152635.jpg",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005112047_82152635.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005112408_111ea07f.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005112408_111ea07f.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005112522_d12e935c.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005112522_d12e935c.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005113453_dfe99826.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005113453_dfe99826.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005113919_e951748c.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005113919_e951748c.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005114149_3cbd8fbf.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005114149_3cbd8fbf.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005115156_17440126.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005115156_17440126.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005122716_74cf22f8.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005122716_74cf22f8.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005122853_07f54b19.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005122853_07f54b19.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005124514_3dd20c4f.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005124514_3dd20c4f.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005124651_f4cb7a60.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005124651_f4cb7a60.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005125047_9c051e14.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005125047_9c051e14.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005125646_648a0b62.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005125646_648a0b62.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\Newuser_business_account\\20231005182343_db0ea0e9.png",
+      "PackagePath": "staticwebassets\\Files\\Newuser_business_account\\20231005182343_db0ea0e9.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\1.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\1.png",
+      "PackagePath": "staticwebassets\\Files\\productImg\\1.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\2.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20230920192032_d9c56f7c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20230920192032_d9c56f7c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20230923201640_1d08ee6b.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20230923201640_1d08ee6b.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20230923201640_21fb514b.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20230923201640_21fb514b.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20230923201640_751766fd.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20230923201640_751766fd.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030140841_293aaecf.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030140841_293aaecf.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030140841_69f6cc48.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030140841_69f6cc48.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030140841_6dacc5e1.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030140841_6dacc5e1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030140841_cc8413ad.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030140841_cc8413ad.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141522_53ee5d06.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141522_53ee5d06.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141522_7e2471c0.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141522_7e2471c0.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141522_aff5533c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141522_aff5533c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141522_ca2e8b20.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141522_ca2e8b20.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141615_61efb32a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141615_61efb32a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141615_c6cdf011.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141615_c6cdf011.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141615_cc0e7db3.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141615_cc0e7db3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141615_fc423883.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141615_fc423883.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141708_7b49168e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141708_7b49168e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141708_9f4075e4.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141708_9f4075e4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141708_e6d9ea8a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141708_e6d9ea8a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231030141708_ef096b00.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231030141708_ef096b00.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031111344_f1111e85.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031111344_f1111e85.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031111345_fb113671.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031111345_fb113671.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031111347_10531b7d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031111347_10531b7d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031111349_0b2e1dc2.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031111349_0b2e1dc2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031111530_6ceb00ba.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031111530_6ceb00ba.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031111530_9253e186.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031111530_9253e186.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031111530_e3512c0d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031111530_e3512c0d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031111530_f7b0c06c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031111530_f7b0c06c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031112117_44135451.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031112117_44135451.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031112117_8a1967e9.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031112117_8a1967e9.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031112117_c47947aa.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031112117_c47947aa.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231031112117_d129dc6e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231031112117_d129dc6e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106150135_82300adb.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106150135_82300adb.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106150135_8ffa19b6.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106150135_8ffa19b6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106150135_b0722c9e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106150135_b0722c9e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106150135_fa572436.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106150135_fa572436.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106152929_94fd99cf.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106152929_94fd99cf.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106152929_a2322bfc.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106152929_a2322bfc.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106152929_e3a03ec8.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106152929_e3a03ec8.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106152929_e66d91de.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106152929_e66d91de.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106153218_0ee4cb34.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106153218_0ee4cb34.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106153218_2a6d7791.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106153218_2a6d7791.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106153218_541a18fa.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106153218_541a18fa.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106153218_bfbeeb1c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106153218_bfbeeb1c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106153713_71791bab.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106153713_71791bab.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106153715_7614f476.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106153715_7614f476.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106153717_88f2af23.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106153717_88f2af23.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106153719_56e4e223.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106153719_56e4e223.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106154038_0dbd5ae1.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106154038_0dbd5ae1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106154038_af8c3e12.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106154038_af8c3e12.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106154038_bfea9a1f.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106154038_bfea9a1f.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231106154038_c6d5105d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231106154038_c6d5105d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073158_44b7b199.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073158_44b7b199.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073158_61c7e00b.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073158_61c7e00b.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073158_7953736d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073158_7953736d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073158_8936ffab.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073158_8936ffab.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073307_13cb621a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073307_13cb621a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073307_1c643c1e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073307_1c643c1e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073307_7feab744.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073307_7feab744.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073307_bac88eac.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073307_bac88eac.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073450_60ce043a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073450_60ce043a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073450_7680a49d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073450_7680a49d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073450_7b3d7bc5.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073450_7b3d7bc5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073450_dae52f89.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073450_dae52f89.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073625_1bbf16a9.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073625_1bbf16a9.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073625_c5e62a98.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073625_c5e62a98.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073625_ce5e11bb.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073625_ce5e11bb.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073625_d350dee4.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073625_d350dee4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073745_0b861aa5.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073745_0b861aa5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073745_7670ecc3.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073745_7670ecc3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073745_90e4d294.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073745_90e4d294.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115073745_b76a038c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115073745_b76a038c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074020_22678c6b.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074020_22678c6b.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074020_66a4df7d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074020_66a4df7d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074020_8775bec6.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074020_8775bec6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074020_93f443b4.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074020_93f443b4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074557_761e7753.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074557_761e7753.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074557_be6c1415.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074557_be6c1415.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074557_d511039b.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074557_d511039b.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074557_e7169fd0.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074557_e7169fd0.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074720_11ded88e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074720_11ded88e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074720_22dc05d3.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074720_22dc05d3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074720_7a2b1ca2.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074720_7a2b1ca2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074720_9d84ba03.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074720_9d84ba03.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074922_58d53319.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074922_58d53319.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074923_85422e21.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074923_85422e21.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074923_b0aac89e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074923_b0aac89e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115074923_c21010d4.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115074923_c21010d4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115075055_0d875e65.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115075055_0d875e65.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115075055_1708f569.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115075055_1708f569.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115075055_350e156c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115075055_350e156c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115075055_d3aaa062.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115075055_d3aaa062.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115080026_3d0c621a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115080026_3d0c621a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115080026_676c7dc2.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115080026_676c7dc2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115080026_ba16b85e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115080026_ba16b85e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115080026_e1c85cb4.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115080026_e1c85cb4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104013_05833f33.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104013_05833f33.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104013_47990465.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104013_47990465.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104013_ba214920.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104013_ba214920.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104013_c30ce0c7.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104013_c30ce0c7.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104314_339d5607.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104314_339d5607.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104314_abbc22b6.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104314_abbc22b6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104314_cadd26f0.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104314_cadd26f0.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104314_d4090833.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104314_d4090833.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104522_30848c96.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104522_30848c96.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104522_c067b979.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104522_c067b979.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104522_ef1143eb.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104522_ef1143eb.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104522_f0a52797.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104522_f0a52797.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104637_6c973421.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104637_6c973421.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104637_8f6cfe91.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104637_8f6cfe91.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104637_b6798470.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104637_b6798470.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104637_cbff81db.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104637_cbff81db.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104809_1705bc9f.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104809_1705bc9f.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104809_dad263e7.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104809_dad263e7.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104809_e940f496.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104809_e940f496.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115104809_f08ff900.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115104809_f08ff900.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105035_34e0afa8.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105035_34e0afa8.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105035_49e02bdb.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105035_49e02bdb.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105035_5af62f6a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105035_5af62f6a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105035_ecb0df32.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105035_ecb0df32.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105210_0eb7e07e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105210_0eb7e07e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105210_45502f1f.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105210_45502f1f.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105210_95182ccc.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105210_95182ccc.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105210_a1e679b8.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105210_a1e679b8.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105422_1340cedf.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105422_1340cedf.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105422_23c96a1c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105422_23c96a1c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105422_666f26c0.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105422_666f26c0.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105422_9d9d4529.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105422_9d9d4529.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105625_16170088.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105625_16170088.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105625_4349acf3.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105625_4349acf3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105625_6b0020ff.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105625_6b0020ff.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105625_71193f0a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105625_71193f0a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105821_1972072a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105821_1972072a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105821_1e9035e2.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105821_1e9035e2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105821_6e94843e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105821_6e94843e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115105821_e663b181.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115105821_e663b181.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161442_07d38a3f.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161442_07d38a3f.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161442_2b3282ba.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161442_2b3282ba.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161442_7a27b4f0.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161442_7a27b4f0.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161442_d300bc0d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161442_d300bc0d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161605_1a96c391.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161605_1a96c391.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161605_760ce35a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161605_760ce35a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161605_763112d5.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161605_763112d5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161605_a2b5f6d6.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161605_a2b5f6d6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161733_38867e7d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161733_38867e7d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161733_3a41884a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161733_3a41884a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161733_40ab7af6.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161733_40ab7af6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161733_7ed574bc.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161733_7ed574bc.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161951_1c088fca.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161951_1c088fca.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161951_420ab62a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161951_420ab62a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161951_88ed34f3.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161951_88ed34f3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115161951_fc82df73.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115161951_fc82df73.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115162248_265f85d0.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115162248_265f85d0.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115162248_41b484da.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115162248_41b484da.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115162248_59433e71.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115162248_59433e71.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115162248_63a387fe.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115162248_63a387fe.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115162724_31a3217b.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115162724_31a3217b.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115162724_384f179d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115162724_384f179d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115162724_8cbddd3d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115162724_8cbddd3d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115162724_b41081a6.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115162724_b41081a6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163007_a26c5f35.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163007_a26c5f35.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163007_d1238f02.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163007_d1238f02.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163007_e5c53e8f.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163007_e5c53e8f.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163007_f069c54e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163007_f069c54e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163149_0bf2d11c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163149_0bf2d11c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163149_4732628d.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163149_4732628d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163149_496448ad.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163149_496448ad.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163149_b8dc6af9.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163149_b8dc6af9.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163308_3a857674.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163308_3a857674.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163308_66170a02.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163308_66170a02.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163308_6987ad37.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163308_6987ad37.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163308_a8a8bd09.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163308_a8a8bd09.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163431_4dc42d07.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163431_4dc42d07.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163431_56a345cf.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163431_56a345cf.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163431_9e20545a.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163431_9e20545a.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231115163431_a30ae893.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231115163431_a30ae893.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161156_1291ada3.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161156_1291ada3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161156_47c1dcf5.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161156_47c1dcf5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161156_8798d746.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161156_8798d746.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161156_e61f7d47.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161156_e61f7d47.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161537_047458d7.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161537_047458d7.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161537_12fa662c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161537_12fa662c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161537_44d45cb2.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161537_44d45cb2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161537_739df834.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161537_739df834.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161707_268292f1.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161707_268292f1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161707_4915deac.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161707_4915deac.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161707_7cf88615.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161707_7cf88615.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161707_bc63e66e.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161707_bc63e66e.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161833_38714708.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161833_38714708.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161833_b1c35abf.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161833_b1c35abf.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161833_cf95bd8c.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161833_cf95bd8c.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116161833_d4974507.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116161833_d4974507.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162018_00f75988.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162018_00f75988.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162018_5919aff5.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162018_5919aff5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162018_673ec8dd.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162018_673ec8dd.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162018_d1299463.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162018_d1299463.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162121_08b4c261.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162121_08b4c261.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162121_550f1fb8.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162121_550f1fb8.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162121_62d4ac15.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162121_62d4ac15.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162121_8384c466.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162121_8384c466.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162304_356c14f9.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162304_356c14f9.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162304_6b8a0f3b.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162304_6b8a0f3b.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162304_957159a2.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162304_957159a2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162304_c1abc2b5.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162304_c1abc2b5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162434_21ead35b.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162434_21ead35b.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162434_48d63515.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162434_48d63515.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162434_73dc3012.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162434_73dc3012.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231116162434_a815ba64.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231116162434_a815ba64.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231124143947_8f4cdad7.png",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231124143947_8f4cdad7.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231124143947_95e5ebb5.png",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231124143947_95e5ebb5.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231124143947_eeffec95.png",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231124143947_eeffec95.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\20231124143947_fa66118d.png",
+      "PackagePath": "staticwebassets\\Files\\productImg\\20231124143947_fa66118d.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\3.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\Base.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\Base.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Files\\productImg\\WIN_20230307_08_34_50_Pro.jpg",
+      "PackagePath": "staticwebassets\\Files\\productImg\\WIN_20230307_08_34_50_Pro.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Source\\Magnific-Popup-master.zip",
+      "PackagePath": "staticwebassets\\Source\\Magnific-Popup-master.zip"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Source\\OwlCarousel2-2.3.4.zip",
+      "PackagePath": "staticwebassets\\Source\\OwlCarousel2-2.3.4.zip"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Source\\SlickNav-master.zip",
+      "PackagePath": "staticwebassets\\Source\\SlickNav-master.zip"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Source\\bootstrap-4.2.1-dist.zip",
+      "PackagePath": "staticwebassets\\Source\\bootstrap-4.2.1-dist.zip"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Source\\elegant_font.zip",
+      "PackagePath": "staticwebassets\\Source\\elegant_font.zip"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Source\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\Source\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\Source\\jquery-nice-select-1.1.0.zip",
+      "PackagePath": "staticwebassets\\Source\\jquery-nice-select-1.1.0.zip"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\css\\RegistrationStyle.css",
+      "PackagePath": "staticwebassets\\assets\\css\\RegistrationStyle.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\img\\login-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\login-bg.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\img\\login-bg1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\login-bg1.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\scss\\base\\_base.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\base\\_base.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\scss\\components\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_breakpoints.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\scss\\components\\_login.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_login.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\scss\\config\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\config\\_variables.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\assets\\scss\\styles.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\styles.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\profile\\demo.css",
+      "PackagePath": "staticwebassets\\css\\profile\\demo.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\profile\\style.css",
+      "PackagePath": "staticwebassets\\css\\profile\\style.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\Adminimg\\20230923204517_a7c91e04.jpg",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\Adminimg\\20230923204517_a7c91e04.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\Adminimg\\20231004233140_3cabd00c.png",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\Adminimg\\20231004233140_3cabd00c.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\Adminimg\\20231005183142_8c63c806.png",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\Adminimg\\20231005183142_8c63c806.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\Adminimg\\20231005184405_e2e2ce7d.jpg",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\Adminimg\\20231005184405_e2e2ce7d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\Adminimg\\20231005184940_28691461.jpg",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\Adminimg\\20231005184940_28691461.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\Adminimg\\20231029150336_68571e2d.jpg",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\Adminimg\\20231029150336_68571e2d.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\Adminimg\\DefaultIMage.png",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\Adminimg\\DefaultIMage.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\Adminimg\\IMG_2391.JPG",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\Adminimg\\IMG_2391.JPG"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\SellerImg\\20230914185938_03346a2e.JPG",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\SellerImg\\20230914185938_03346a2e.JPG"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\SellerImg\\20230915190510_6f300e48.JPG",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\SellerImg\\20230915190510_6f300e48.JPG"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\SellerImg\\20230923201451_acce0256.JPG",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\SellerImg\\20230923201451_acce0256.JPG"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\SellerImg\\20230923210811_389a84dd.JPG",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\SellerImg\\20230923210811_389a84dd.JPG"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\SellerImg\\20231104125628_ab081840.jpg",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\SellerImg\\20231104125628_ab081840.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\BussAccImg\\SellerImg\\DefaultIMage.png",
+      "PackagePath": "staticwebassets\\img\\BussAccImg\\SellerImg\\DefaultIMage.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\Logo-withoutBackground.png",
+      "PackagePath": "staticwebassets\\img\\Logo-withoutBackground.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\SunGlasses.png",
+      "PackagePath": "staticwebassets\\img\\SunGlasses.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\Watch.png",
+      "PackagePath": "staticwebassets\\img\\Watch.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\about\\about-us.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-us.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\about\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\about\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\about\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\about\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\about\\testimonial-author.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\testimonial-author.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\about\\testimonial-pic.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\testimonial-pic.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\banner\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\blog-9.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-9.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\details\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\blog-author.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\blog\\details\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\blog-details.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\img\\footer-logo.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\footer-logo3.png",
+      "PackagePath": "staticwebassets\\img\\footer-logo3.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\hero\\hero-3.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\hero\\hero-4.png",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-4.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\icon\\calendar.png",
+      "PackagePath": "staticwebassets\\img\\icon\\calendar.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\icon\\cart.png",
+      "PackagePath": "staticwebassets\\img\\icon\\cart.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\icon\\compare.png",
+      "PackagePath": "staticwebassets\\img\\icon\\compare.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\icon\\heart.png",
+      "PackagePath": "staticwebassets\\img\\icon\\heart.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\icon\\search.png",
+      "PackagePath": "staticwebassets\\img\\icon\\search.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\instagram\\instagram-1.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\instagram\\instagram-2.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\instagram\\instagram-3.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\instagram\\instagram-4.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\instagram\\instagram-5.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\instagram\\instagram-6.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\payment.png",
+      "PackagePath": "staticwebassets\\img\\payment.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product-sale.png",
+      "PackagePath": "staticwebassets\\img\\product-sale.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-13.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-13.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-14.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-14.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-15.png",
+      "PackagePath": "staticwebassets\\img\\product\\product-15.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-16.png",
+      "PackagePath": "staticwebassets\\img\\product\\product-16.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-17.png",
+      "PackagePath": "staticwebassets\\img\\product\\product-17.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-7.jpeg",
+      "PackagePath": "staticwebassets\\img\\product\\product-7.jpeg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\details-payment.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\details-payment.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\product-big-2.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-2.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\product-big-3.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-3.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\product-big-4.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-4.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\product-big.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\thumb-1.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\thumb-1.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\thumb-2.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\thumb-2.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\thumb-3.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\thumb-3.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shop-details\\thumb-4.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\thumb-4.png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shopping-cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-1.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shopping-cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-2.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shopping-cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-3.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shopping-cart\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-4.jpg"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\img\\shopping-cart\\logo (2).png",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\logo (2).png"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_about.scss",
+      "PackagePath": "staticwebassets\\sass\\_about.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_base.scss",
+      "PackagePath": "staticwebassets\\sass\\_base.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog-details.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_blog-sidebar.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog-sidebar.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_checkout.scss",
+      "PackagePath": "staticwebassets\\sass\\_checkout.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\sass\\_contact.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\sass\\_footer.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_header.scss",
+      "PackagePath": "staticwebassets\\sass\\_header.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_hero.scss",
+      "PackagePath": "staticwebassets\\sass\\_hero.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_home-page.scss",
+      "PackagePath": "staticwebassets\\sass\\_home-page.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_product.scss",
+      "PackagePath": "staticwebassets\\sass\\_product.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_responsive.scss",
+      "PackagePath": "staticwebassets\\sass\\_responsive.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_shop-details.scss",
+      "PackagePath": "staticwebassets\\sass\\_shop-details.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_shop.scss",
+      "PackagePath": "staticwebassets\\sass\\_shop.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_shopping-cart.scss",
+      "PackagePath": "staticwebassets\\sass\\_shopping-cart.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\_variable.scss",
+      "PackagePath": "staticwebassets\\sass\\_variable.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\sass\\style.scss"
+    },
+    {
+      "Id": "F:\\AbaJohn\\AbaJohn\\wwwroot\\sidebar\\style.css",
+      "PackagePath": "staticwebassets\\sidebar\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AbaJohn.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AbaJohn.props",
+      "PackagePath": "build\\AbaJohn.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AbaJohn.props",
+      "PackagePath": "buildMultiTargeting\\AbaJohn.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AbaJohn.props",
+      "PackagePath": "buildTransitive\\AbaJohn.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

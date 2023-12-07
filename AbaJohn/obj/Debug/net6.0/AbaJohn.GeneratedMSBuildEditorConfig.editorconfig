@@ -1,0 +1,209 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AbaJohn
+build_property.RootNamespace = AbaJohn
+build_property.ProjectDir = F:\AbaJohn\AbaJohn\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = F:\AbaJohn\AbaJohn
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/AbaJohn/AbaJohn/Views/Account/AddAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZGRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Account/AddBussnessACount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZGRCdXNzbmVzc0FDb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Account/Indexlogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleGxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Account/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Account/registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxyZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/Add_categoery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkX2NhdGVnb2VyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/Add_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkX3Byb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/AdminProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Qcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/ChangeAdminInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhbmdlQWRtaW5JbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/Edit_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdF9wcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/Show_all_category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd19hbGxfY2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/Show_all_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd19hbGxfcHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Admin/Show_users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd191c2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Category/Add_categoery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkX2NhdGVnb2VyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Category/Show_all_category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2hvd19hbGxfY2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Item/AddItemToProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxBZGRJdGVtVG9Qcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Item/Edit_item.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxFZGl0X2l0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Item/ShowItemsForProdcut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxTaG93SXRlbXNGb3JQcm9kY3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Localization/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxpemF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Product/Add_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRfcHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Product/Edit_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0X3Byb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Product/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Product/ShowProductsByGender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93UHJvZHVjdHNCeUdlbmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Product/Show_all_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93X2FsbF9wcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Role/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBZGRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Seller/Add_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXEFkZF9wcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Seller/ChangeSellerInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXENoYW5nZVNlbGxlckluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Seller/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Seller/SellerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXFNlbGxlclByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Seller/ShowAllproduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXFNob3dBbGxwcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_abajohnLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9hYmFqb2huTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_businessAccLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9idXNpbmVzc0FjY0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_ProductsAndPagingpartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0c0FuZFBhZ2luZ3BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_selectLanguagePartil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zZWxlY3RMYW5ndWFnZVBhcnRpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_showuserpartil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zaG93dXNlcnBhcnRpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_SideBarItemForAdminpartil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlQmFySXRlbUZvckFkbWlucGFydGlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_SideBarItemForSellerpartil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlQmFySXRlbUZvclNlbGxlcnBhcnRpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/AbaJohn/AbaJohn/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b2tgfoxkej

@@ -1,0 +1,143 @@
+﻿@model AbaJohn.ViewModel.UserWithaddressViewModel
+
+@{
+    if (User.IsInRole("seller") || User.IsInRole("admin"))
+    {
+
+        Layout = "_businessAccLayout";
+    }
+    ViewData["Title"] = "ChangeAdminInfo";
+}
+
+
+
+
+<fieldset style="border: 1px solid #ccc;    padding: 35px;    border-radius: 10px;    margin: 40px;">
+    <legend style="    color: black;    padding: 13px 2px;    margin: 4px 50px;    width: 20%;" class="align-content-center">
+        Change Admin Info
+    </legend>
+
+
+    <form asp-action="ChangeAdminInfo" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        @*     <input type="hidden" asp-for="Id" value="@Model.Id"/>*@
+        <input type="hidden" asp-for="user_name" value="@Model.user_name" />
+        <input type="hidden" asp-for="image" value="@Model.image" />
+
+
+        <div class="form-row">
+            <div class="col-md-6">
+
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+
+        </div>
+
+
+        <div class="form-row">
+            <div class="col-md-4">
+                <label asp-for="age" class="control-label"></label>
+                <input asp-for="age" class="form-control" />
+                <span asp-validation-for="age" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="phone_number" class="control-label"></label>
+                <input asp-for="phone_number" class="form-control" />
+                <span asp-validation-for="phone_number" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="country" class="control-label"></label>
+                <input asp-for="country" class="form-control" />
+                <span asp-validation-for="country" class="text-danger"></span>
+            </div>
+
+        </div>
+
+
+        <div class="form-row">
+            <div class="col-md-1">
+
+                <img src="~/img/bussaccimg/Adminimg/@Model.image" style="width: 85%;height: 59%;margin-top: 10px;border-radius: 81px;margin-left: 0px;" />
+
+            </div>
+            <div class="col-md-5">
+                <label asp-for="Gender" class="control-label"> Choose your Image</label>
+                <input asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="Gender" class="control-label"></label>
+                <select asp-for="Gender" class="form-control">
+                    @{
+                        var gen = @Model.Gender;
+                    }
+                    <option value="@Model.Gender" selected>
+                        @(char.ToUpper(gen[0]) + gen.Substring(1))
+                    </option>
+                    @if (Model.Gender.ToLower().Equals("male"))
+                    {
+                        <option value="female">Female</option>
+                    }
+                    else
+                    {
+                        <option value="male">Male</option>
+                    }
+                </select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="form-row">
+
+
+            <div class="col-md-4">
+                <label asp-for="city" class="control-label"></label>
+                <input asp-for="city" class="form-control" />
+                <span asp-validation-for="city" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="street_name" class="control-label"></label>
+                <input asp-for="street_name" class="form-control" />
+                <span asp-validation-for="street_name" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="home_number" class="control-label"></label>
+                <input asp-for="home_number" class="form-control" />
+                <span asp-validation-for="home_number" class="text-danger"></span>
+            </div>
+        </div>
+
+        <br />
+        <div class="form-row">
+            <div class="col-md-6">
+                <input type="submit" value="Save" class="btn btn-dark" />
+
+            </div>
+            <div class="col-md-6">
+                <a asp-action="AdminProfile" asp-controller="admin" class="btn btn-dark">Back to Profile</a>
+
+            </div>
+
+        </div>
+    </form>
+
+</fieldset>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,181 @@
+﻿@model AbaJohn.ViewModel.ItemViewModel
+
+@{
+
+
+    if (User.IsInRole("seller") || User.IsInRole("admin"))
+    {
+
+        Layout = "_businessAccLayout";
+    }
+
+}
+
+
+<hr />
+<div class="container h-150">
+    <div class="row d-flex justify-content-center align-items-center ">
+        <div class="col ">
+            <div class="card mb-4 rounded">
+                <div>
+                    <div class="card-body p-4">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <a target="_blank" href="../files/productimg/@Model.Product.BaseImg">
+                                            <img class="img-fluid mb-1 " src="../files/productimg/@Model.Product.BaseImg" style="width:300px; height:auto;">
+                                        </a>
+                                    </div>
+
+                                    <div class="col text-center">
+                                        <a target="_blank" href="../files/productimg/@Model.Product.Img1">
+                                            <img class="img-fluid mb-1 " src="../files/productimg/@Model.Product.Img1"  style="width:70px; height:auto;">
+                                        </a>
+                                    </div>
+                                    <div class="col text-center">
+                                        <a target="_blank" href="../files/productimg/@Model.Product.Img2">
+                                            <img class="img-fluid mb-1 " src="../files/productimg/@Model.Product.Img2"  style="width:70px; height:auto;">
+                                        </a>
+                                    </div>
+                                    <div class="col text-center">
+                                        <a target="_blank" href="../files/productimg/@Model.Product.Img3">
+                                            <img class="img-fluid mb-1 " src="../files/productimg/@Model.Product.Img3"  style="width:70px; height:auto;">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+
+                                <div class="row ">
+                                    <div class="col-md-12 text-center">
+                                        <h4 class="text-uppercase mb-4 d-flex justify-content-center">@Model.Product.Name </h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <h6 class="text-uppercase mb-4 d-flex justify-content-center"> @Model.Product.Code <span class="text-warning">||</span> <span class="text-danger"> @Model.Product.prodeuctGender </span>  </h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <h6 class="text-uppercase mb-4 d-flex justify-content-center">@Model.Product.title <span class="text-warning">||</span> <span class="text-danger"> </span>  </h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-2 text-center ">
+
+
+                                <h4>
+          
+
+                                    <span class="mr-3 text-primary text-center " data-toggle="tooltip" title="Car Price is : @Model.Product.price">$ @Model.Product.price</span>
+                                    <i class="fa fa-money" data-toggle="tooltip" title="" style="font-size:25px"></i>
+                                </h4>
+
+                            </div>
+                            <div class="col-md-2 d-flex justify-content-center">
+                                <a class="btn btn-outline-secondary px-3 rounded animate-down-2 RedBoreder" asp-action="ShowItemsForProdcut" asp-route-ProductID="@Model.productID"> Show All Items  </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            <h3 style="color: #25d30e; text-align: center;margin: 10px;">
+                @ViewBag.Message
+            </h3>
+            <form asp-action="AddItemToProduct" asp-controller="Item" id="duplicater" style="margin-bottom:15px;">
+               @* <div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
+                <input asp-for="productID" value="@Model.productID" hidden />
+                  <div class="row">
+
+                    <div class="col-sm">
+                        <label asp-for="Color" class="control-label"></label>
+                        <select style="color:black" asp-for="Color" name="Color" class="form-control " required>
+                            <option></option>
+                            @foreach (var item in Model.Colors)
+                            {
+                                <option value="@item.Name" class="fa " style="color: @item.Value ;">&#xf111; @item.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm">
+                        <label asp-for="size" class="control-label"></label>
+                        <select style="color:black" asp-for="size" name="size" class="form-control required">
+                            <option>No Size</option>
+                            @foreach (var item in Model.Sizes)
+                            {
+                                <option value="@item.Name" class="fa">&#xf111; @item.Value</option>
+                            }
+                        </select>
+                        <span asp-validation-for="size" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm">
+                        <label asp-for="Quantity" class="control-label"></label>
+                        <input asp-for="Quantity" class="form-control" />
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm text-center" style="margin-top:8px">
+                        <br />
+                        <input type="submit" value="ADD" class="btn btn-dark RedBoreder" />
+                        
+                    </div>
+                      
+                  </div>
+            </form>
+        </div>
+        <div class="col-2 text-center">
+
+            <br />
+            <input type="button" value="Add New Item" onclick=" addNewITem()" class="btn btn-dark RedBoreder" style="margin-top:8px" />
+
+            <br />
+        </div>
+    </div>
+
+   
+
+   
+</div>
+
+@* <div>
+        <a asp-action="Index">Back to Product List</a>
+    </div>*@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+
+
+
+<script>
+
+    
+    var i = 1;
+   
+    function addNewITem() {
+        //var original = document.getElementById("test");
+        //divReplaced.innerHTML += NewItem ;
+        const original = document.getElementById('duplicater');
+      
+        const clone = original.cloneNode(true);
+        i++
+        clone.id = `duplicater${i}`;
+        original.parentNode.appendChild(clone);
+    }
+              
+</script>

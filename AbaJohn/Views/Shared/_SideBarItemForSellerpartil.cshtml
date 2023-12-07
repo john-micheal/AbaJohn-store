@@ -1,0 +1,98 @@
+﻿
+
+
+<ul class="nav-list">
+
+    @{
+        ApplicationDbContext context = new ApplicationDbContext() ;
+        var image = "DefaultIMage.png";
+        if(User.Identity.Name != null)
+        {
+            image = context.Users.FirstOrDefault(x => x.UserName == User.Identity.Name).img;
+
+        }
+    }
+   
+
+    <li style="text-align:center">
+
+        <img class="user-img" id="user-img" src="~/img/bussaccimg/sellerimg/@image" alt="">
+            
+      
+    </li>
+    <li >
+        <h2 class="roleIcon"> SELLER</h2>
+    </li>
+    <li>
+        <a asp-action="index" asp-controller="seller">
+            <i class='bx bx-home'></i>
+            <span class="links_name">Home</span>
+        </a>
+        <span class="tooltip">Home</span>
+    </li>
+    <li>
+        <a href="#">
+            <i class='bx bx-pie-chart-alt-2'></i>
+            <span class="links_name">Products Review</span>
+        </a>
+        <span class="tooltip">Products Review</span>
+    </li>
+    <li>
+        <a href="#">
+            <i class='fa fa-list-ol'></i>
+            <span class="links_name">Customer Review</span>
+        </a>
+        <span class="tooltip">Customer Review</span>
+    </li>
+    <li>
+        <a href="#">
+            <i class='bx bx-cart-alt'></i>
+            <span class="links_name">Order</span>
+        </a>
+        <span class="tooltip">Orders</span>
+    </li>
+
+    <li class="dropdown"  id="dropList">
+        <a class="dropbtn" >
+            <i class="fa fa-product-hunt"></i>
+            <span class="links_name ">Product</span>
+        </a>
+
+        <div class="dropdown-content" id="dropItem">
+
+            <a class="dropm" asp-action="ShowProductSeller" asp-controller="product">
+                <span class="Drop_links_name ">Show All product</span>
+            </a>
+            <a class="dropm" asp-action="Add_product" asp-controller="product">
+                <span class="Drop_links_name ">Add new product</span>
+             </a>
+
+        </div>
+    </li>
+
+
+
+
+
+    <li>
+        <a asp-action="SellerProfile" asp-controller="seller">
+            <i class='fa fa-address-card-o'></i>
+            <span class="links_name">Portfolio</span>
+        </a>
+        <span class="tooltip">Portfolio</span>
+    </li>
+    <li class="profile">
+        <div class="profile-details">
+
+            <div class="name_job">
+                <div class="name">@User.Identity.Name</div>
+                
+            </div>
+        </div>
+        <div class="changestyle">
+            <a asp-action="logout" asp-controller="Account" style="text-decoration:none"> <i class='bx bx-log-out' id="log_out" asp-></i></a>
+
+        </div>
+        
+    </li>
+</ul>

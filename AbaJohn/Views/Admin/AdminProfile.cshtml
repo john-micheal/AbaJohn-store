@@ -1,0 +1,106 @@
+﻿@model AbaJohn.ViewModel.UserWithaddressViewModel
+@{
+    Layout = "_businessAccLayout";
+    ViewBag.ViewName = "SellerProfile";
+}
+
+
+
+<header class="ScriptHeader" style="background:none; position:static">
+    <div class="rt-container">
+        <div class="col-rt-12">
+            <div class="rt-heading">
+                <h1>Admin Profile Page</h1>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+        <div class="col-rt-12">
+            <div class="Scriptcontent">
+
+                <!-- Student Profile -->
+                <div class="student-profile py-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card shadow-sm">
+                                    <div class="card-header bg-transparent text-center">
+
+                                        <img class="profile_img" src="~/img/bussaccimg/Adminimg/@Model.image" alt="student dp">
+                                        <h3>@Model.name</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="mb-0"><strong class="pr-1">Phone Number:</strong>@Model.phone_number</p>
+                                        <p class="mb-0"><strong class="pr-1">Email:</strong>@Model.email</p>
+                                        <p class="mb-0"><strong class="pr-1">Age:</strong>@Model.age</p>
+                                    </div>
+                                </div>
+                                <div style="margin:10px;padding:5px" class="ChangeBtn">
+                                    <a type="button" class="btn btn-primary" asp-action="ChangeAdminInfo" asp-controller="Admin"
+                                       style="width:100%;color:#f8f8f8;background-color: #000000;border-color: #1f3852;">Change Your INFO</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card shadow-sm">
+                                    <div class="card-header bg-transparent border-0">
+                                        <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
+                                    </div>
+                                    <div class="card-body pt-0">
+                                        <table class="table table-bordered">
+                                            <tr>
+                                                <th width="30%">Roll</th>
+                                                <td width="2%">:</td>
+                                                <td>Admin</td>
+                                            </tr>
+                                            <tr>
+                                                <th width="30%">Address</th>
+                                                <td width="2%">:</td>
+                                                <td>@Model.city - @Model.street_name - @Model.home_number </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th width="30%">Join Year	</th>
+                                                <td width="2%">:</td>
+                                                <td>2022</td>
+                                            </tr>
+                                            <tr>
+                                                <th width="30%">Gender</th>
+                                                <td width="2%">:</td>
+                                                <td>@Model.Gender</td>
+                                            </tr>
+                                            <tr>
+                                                <th width="30%">User Name</th>
+                                                <td width="2%">:</td>
+                                                <td>@Model.user_name</td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+                                </div>
+                                <div style="height: 26px"></div>
+                                <div class="card shadow-sm">
+                                    <div class="card-header bg-transparent border-0">
+                                        <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Other Information</h3>
+                                    </div>
+                                    <div class="card-body pt-0">
+                                        <p>
+                                            is responsible for selling products and meeting customer needs while obtaining orders from existing or potential sales outlets.
+                                            They ensure that the customer is satisfied and adequately taken care of while making a purchase. This way, they can establish
+                                            new accounts for their employer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- partial -->
+
+            </div>
+        </div>
+    </div>
+</section>

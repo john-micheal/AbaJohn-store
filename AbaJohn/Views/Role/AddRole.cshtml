@@ -1,0 +1,43 @@
+﻿@model AbaJohn.ViewModel.RoleViewModel
+
+@{
+    ViewData["Title"] = "AddRole";
+    Layout = "_businessAccLayout";
+}
+
+
+<fieldset style="border: 1px solid #000000; padding: 20px; border-radius: 10px;  margin: 65px">
+    <legend style=" color:#000000; padding: 5px 10px; margin:4px 52px; width: 15%;" class="align-content-center">  Add New Role </legend>
+
+
+    <div class="continer">
+
+
+
+        <form asp-action="AddRole">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RoleName" class="control-label"></label>
+                <input asp-for="RoleName" class="form-control" />
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+
+            <div class="container" style="display: inline-block">
+                <div class="form-group" style="display: inline-block;">
+                    <input type="submit" value="Create" class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" />
+                </div>
+
+                <div style="display: inline-block;">
+                    <a class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" asp-action="Index" asp-controller="Home" class="btn btn-primary"> Back </a>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</fieldset>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

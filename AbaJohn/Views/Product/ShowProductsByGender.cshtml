@@ -1,0 +1,461 @@
+﻿@model AbaJohn.ViewModel.ProductListVM_Paging
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option" style="margin-top:10%">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Shop</h4>
+                    <div class="breadcrumb__links">
+                        <a asp-action="index" asp-controller="home">Home</a>
+                        <span>@Model.ProductGender  </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Shop Section Begin -->
+<section class="shop spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="shop__sidebar">
+                    <div class="shop__sidebar__search" @*style="width:80%"*@>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <form action="#">
+                                    <input type="text" placeholder="Search...">
+                                    <button type="submit"><span class="icon_search"></span></button>
+                                </form>
+                            </div>
+                            <div class="col-lg-4">
+                                <p onclick="ClearAll()" style="float:right;">
+                                    <a value="Men" href="#" style="color:red ;">Clear All</a>
+                                </p>
+                            </div>
+
+                        </div>
+                      
+                    </div>
+                 
+                    <div class="shop__sidebar__accordion">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseOne"> Gender Or type </a>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__categories">
+                                            <ul class="nice-scroll">
+
+                                                <li onclick="Clear('gender')" style="float:right;">
+                                                    <a value="Men" href="#" style="color:red ;">Clear </a>
+                                                </li>
+                                                <li><a onclick="getGender(this),SetColor(this,'gender')" value="Men" name="gender" href="#">Men </a></li>
+                                                <li><a onclick="getGender(this),SetColor(this,'gender')" value="women" name="gender" href="#">Women</a></li>
+                                                <li><a onclick="getGender(this),SetColor(this,'gender')" value="Accessories" name="gender" href="#">Accessories </a></li>
+                                                <li><a onclick="getGender(this),SetColor(this,'gender')" value="Kids" name="gender" href="#">Kids </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
+                                </div>
+                                <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__price" id="PrRng">
+                                            <ul>
+                                                <li onclick="Clear('Price')" style="float:right;">
+                                                    <a value="Men" href="#" style="color:red ;">Clear </a>
+                                                </li>
+                                                <li>    <a name="Price" href="#" onclick="getPrice(0 ,50),SetColor(this,  'Price')" >$0.00 - $50.00</a></li>
+                                                <li>   <a name="Price" href="#"  onclick="getPrice(50,100),SetColor(this, 'Price')" >$50.00 - $100.00</a></li>
+                                                <li>  <a name="Price" href="#"   onclick="getPrice(100,150),SetColor(this,'Price')" >$100.00 - $150.00</a></li>
+                                                <li>  <a name="Price" href="#"   onclick="getPrice(150,200),SetColor(this,'Price')" >$150.00 - $200.00</a></li>
+                                                <li>  <a name="Price" href="#"   onclick="getPrice(200,250),SetColor(this,'Price')" >$200.00 - $250.00</a></li>
+                                                <li> <a name="Price" href="#"    onclick="getPrice(250,5000),SetColor(this,'Price')">250.00+</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseTwo">Categories</a>
+                                </div>
+                                <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__brand">
+                                            <ul>
+                                                <li onclick="Clear('Category')" style="float:right;">
+                                                    <a value="Men" href="#" style="color:red ;">Clear </a>
+                                                </li>
+                                                <li><a name="Category" onclick="getCategory(this),SetColor(this,'Category')" href="#">Bags</a></li>
+                                                <li><a name="Category" onclick="getCategory(this),SetColor(this,'Category')" href="#">Clothing </a></li>
+                                                <li><a name="Category" onclick="getCategory(this),SetColor(this,'Category')" href="#">Shoes </a></li>
+                                                <li><a href="#">Louis Vuitton</a></li>
+                                                <li><a href="#">Chanel</a></li>
+                                                <li><a href="#">Hermes</a></li>
+                                                <li><a href="#">Gucci</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseFour">Size</a>
+                                </div>
+                                <div id="collapseFour" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__size">
+                                            <p onclick="Clear('Size')" style="float:right;">
+                                                <a value="Men" href="#" style="color:red ;">Clear </a>
+                                            <p/>
+                                            <label for="xs" name="Size" onclick="getSize('XS'),SetColor(this,'Size')">
+                                                xs
+                                               @* <input type="radio" id="xs">*@
+                                            </label>
+                                            <label for="sm" name="Size" onclick="getSize('S'),SetColor(this,'Size')">
+                                                s
+                                               @* <input type="radio" id="sm">*@
+                                            </label>
+                                            <label for="md" name="Size" onclick="getSize('M'),SetColor(this,'Size')">
+                                                m
+                                               @* <input type="radio" id="md">*@
+                                            </label> 
+                                            <label for="l" name="Size" onclick="getSize('L'),SetColor(this,'Size')">
+                                                l
+                                               @* <input type="radio" id="l">*@
+                                            </label>
+                                            <label for="xl" name="Size"  onclick="getSize('XL'),SetColor(this,'Size')">
+                                                xl
+                                               @* <input type="radio" id="xl">*@
+                                            </label >
+                                            <label for="2xl" name="Size" onclick="getSize('2Xl'),SetColor(this,'Size')">
+                                                2xl
+                                               @* <input type="radio" id="2xl">*@
+                                            </label>
+                                          
+                                            <label for="3xl" name="Size" onclick="getSize('3XL'),SetColor(this,'Size')">
+                                                3xl
+                                               @* <input type="radio" id="3xl">*@
+                                            </label>
+                                            <label for="4xl" name="Size" onclick="getSize('4XL'),SetColor(this,'Size')">
+                                                4xl
+                                               @* <input type="radio" id="4xl">*@
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseFive">Colors</a>
+                                </div>
+                                <div id="collapseFive" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__color">
+                                            <p onclick="Clear('Color')" style="float:right;">
+                                                <a value="Men" href="#" style="color:red ;">Clear </a>
+                                            <p />
+                                            <label class="c-1" for="sp-1" onclick="getColor('Black') ,SetColor(this,'Color')" name="Color">
+                                                @*<input type="radio" id="sp-1">*@
+                                            </label>
+                                            <label class="c-2" for="sp-2" onclick="getColor('blue')  ,SetColor(this,'Color')" name="Color">
+                                               @* <input type="radio" id="sp-2">*@
+                                            </label>
+                                            <label class="c-3" for="sp-3" onclick="getColor('Yellow') ,SetColor(this,'Color')" name="Color">
+                                                @*<input type="radio" id="sp-3">*@
+                                            </label>
+                                            <label class="c-4" for="sp-4" onclick="getColor('Gray') ,SetColor(this,'Color')" name="Color">
+                                                @*<input type="radio" id="sp-4">*@
+                                            </label>
+                                            <label class="c-5" for="sp-5" onclick="getColor('Green') ,SetColor(this,'Color')" name="Color">
+                                                @*<input type="radio" id="sp-5">*@
+                                            </label>
+                                            <label class="c-6" for="sp-6" onclick="getColor('Beige') ,SetColor(this,'Color')" name="Color">
+                                               @* <input type="radio" id="sp-6">*@
+                                            </label>
+                                            <label class="c-7" for="sp-7" onclick="getColor('Orange') ,SetColor(this,'Color')" name="Color">
+                                               @* <input type="radio" id="sp-7">*@
+                                            </label>
+                                            <label class="c-8" for="sp-8" onclick="getColor('Red') ,SetColor(this,'Color')" name="Color">
+                                               @* <input type="radio" id="sp-8">*@
+                                            </label>
+                                            <label class="c-9" for="sp-9" onclick="getColor('White'),SetColor(this,'Color')" name="Color">
+                                               @* <input type="radio" id="sp-9">*@
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseSix">Tags</a>
+                                </div>
+                                <div id="collapseSix" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__tags">
+                                            <a href="#">Product</a>
+                                            <a href="#">Bags</a>
+                                            <a href="#">Shoes</a>
+                                            <a href="#">Fashio</a>
+                                            <a href="#">Clothing</a>
+                                            <a href="#">Hats</a>
+                                            <a href="#">Accessories</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                 @*partial View here*@
+
+            <div class="col-lg-9" id="partial">
+                    <div class="shop__product__option">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__left">
+                                    <p>Showing @Model.products.Count() results</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__right">
+                                    <p>Sort by Price:</p>
+                                    <select>
+                                        <option value="">Low To High</option>
+                                        <option value="">$0 - $55</option>
+                                        <option value="">$55 - $100</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" >
+
+                         @foreach (var product in Model.CalculateData())
+                         {
+                            <a asp-action="ProductDetails" asp-controller="product" asp-route-Id="@product.ID">
+
+
+                                 <div class="col-lg-4 col-md-6 col-sm-6">
+                                     <div class="product__item">
+                                      
+                                             <div class="product__item__pic set-bg" data-setbg="../files/productimg/@product.BaseImg">
+                                                 <ul class="product__hover">
+                                                     <li><img src="../img/icon/heart.png" alt=""></li>
+                                                     <li><img src="../img/icon/compare.png" alt=""> <span>Compare</span></li>
+                                                     <li><img src="../img/icon/search.png" alt=""></li>
+                                                 </ul>
+                                             </div>
+                                             <div class="product__item__text">
+                                                 <h6>@product.Name</h6>
+                                                 @*   <h6>@product.title</h6>*@
+                                                 <a href="#" class="add-cart">+ Add To Cart</a>
+                                                 <div class="rating">
+                                                     <i class="fa fa-star-o"></i>
+                                                     <i class="fa fa-star-o"></i>
+                                                     <i class="fa fa-star-o"></i>
+                                                     <i class="fa fa-star-o"></i>
+                                                     <i class="fa fa-star-o"></i>
+                                                 </div>
+                                                 <h5>$@product.price</h5>
+                                                 <div class="product__color__select">
+                                                     <label for="pc-4">
+                                                         <input type="radio" id="pc-4">
+                                                     </label>
+                                                     <label class="active black" for="pc-5">
+                                                         <input type="radio" id="pc-5">
+                                                     </label>
+                                                     <label class="grey" for="pc-6">
+                                                         <input type="radio" id="pc-6">
+                                                     </label>
+                                                 </div>
+                                             </div>
+                                       
+                                     </div>
+                                 </div>
+                             </a>
+                         }
+
+                    </div>
+                    @{
+                        int PrevPageNO = Model.CurrentPage - 1;
+                        if (PrevPageNO <= 0)
+                        {
+                            PrevPageNO = 1;
+                        }
+                        int NextPageNo = Model.CurrentPage + 1;
+
+                        if (NextPageNo > Model.NoOfPage())
+                        {
+                            NextPageNo = Model.NoOfPage();
+                        }
+                    }
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <div class="product__pagination">
+
+                                     <a onclick="Bindmodel(@PrevPageNO)" href="#">
+                                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                    </a>
+                                    @for (int i = 0; i < Model.NoOfPage(); i++)
+                                    {
+                                        if((i + 1) == Model.CurrentPage)
+                                        {
+                                    <a class="active" onclick="Bindmodel(@i + 1)" href="#">@(i + 1)</a>
+                                        }
+                                        else
+                                        {
+                                    <a onclick="Bindmodel(@i + 1)" href="#">@(i + 1)</a>
+                                        }
+                                    }
+                                     <a onclick="Bindmodel(@NextPageNo)" href="#">
+                                       <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+       
+    </div>
+
+
+</section>
+<!-- Shop Section End -->
+<script>
+    var Gender = "@Model.ProductGender"  ;
+    var  Category, price0, price1, Color, Size;
+
+    function ClearAll(){
+        Gender = '';
+        ClearColor('gender');
+        Category = '';
+        ClearColor('Category');
+        price0 = '';
+        price1 = '';
+        ClearColor('Price');
+        Color = '';
+        ClearColor('Color');
+        Size = '';
+        ClearColor('Size');
+        Bindmodel();
+
+    }
+  
+    function Clear(SectionName){
+      // clear color for all link
+         ClearColor(SectionName);
+      // set gender = null
+        if (SectionName == 'gender'){
+            Gender = "";
+        } 
+        if (SectionName == 'Price'){
+            price0 ='';
+            price1 ='';
+        }
+        if (SectionName == 'Category') {
+            Category = "";
+        } 
+        if (SectionName == 'Size') {
+            Size = "";
+        }
+        if (SectionName == 'Color') {
+            Color = "";
+        }
+
+        Bindmodel();
+    }
+
+    function ClearColor(name){
+        var elements = document.getElementsByName(name);
+        for (const element of elements) {
+            element.style.color = '';
+            element.style.border = '';
+        }
+    }
+     function SetColor(val,name){
+        var elements = document.getElementsByName(name);
+        for (const element of elements) {
+            element.style.color = '';
+            element.style.border = '';
+        }
+      //  console.log(val)
+        val.style.color = 'black';
+        if(name== 'Size'){
+          val.style.border = '1px solid #000000';
+        } 
+        if(name== 'Color'){
+          val.style.border = '3px solid #000000';
+          val.style.width = '35px';
+            val.style.height = '35px';
+        }
+       
+    }
+
+ 
+    
+    function getGender(val){
+        Gender = val.getAttribute("value");
+        Bindmodel()
+    }
+    function getCategory(val) {
+        Category = val.getAttribute("value");
+        Bindmodel()
+    }
+
+    function getPrice(p0 ,p1){
+        price0 =p0;
+        price1 =p1;
+        Bindmodel()
+    }
+    function getSize(val){
+        Size = val;
+        Bindmodel()
+    }
+    function getColor(Col){
+        Color = Col;
+        Bindmodel()
+    }
+  
+    // bind the data from Global variable    string Color,string size
+    function Bindmodel(PageNumber = 1) {
+
+
+        //var dataforPrice = 'MinPrice=' + MinPrice & '&MaxPrice=' + MaxPrice;
+        $.ajax({
+            type: "GET",
+            url: "/product/ShowProductsFilter",
+            data: {
+                MinPrice: price0, MaxPrice: price1, ProductGender: Gender, PageNo: PageNumber,
+                Color: Color, size: Size, Category: Category
+            },
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                $('#partial').html(data);
+
+            },
+            error: function () {
+                alert('Error');
+            }
+        });
+    }
+
+    
+</script>

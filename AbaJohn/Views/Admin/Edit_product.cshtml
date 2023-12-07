@@ -1,0 +1,57 @@
+﻿@model AbaJohn.ViewModel.productViewModel
+
+@{
+    ViewData["Title"] = "Edit_product";
+}
+
+
+
+<h1>Edit_product</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit_product" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" value="@ViewBag.old_product.Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="price" class="control-label"></label>
+                <input asp-for="price" class="form-control" value="@ViewBag.old_product.price" />
+                <span asp-validation-for="price" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Code" class="control-label"></label>
+                <input asp-for="Code" class="form-control" value="@ViewBag.old_product.Code" />
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="category_id" class="control-label"></label>
+                <input asp-for="category_id" class="form-control"  />
+                <span asp-validation-for="category_id" class="text-danger"></span>
+            </div>
+
+         
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-success"  asp-action="Show_all_product" asp-controller="AdminServics">Back to Product List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

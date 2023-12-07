@@ -1,0 +1,143 @@
+﻿@model AbaJohn.ViewModel.productViewModel
+
+@{
+
+
+    if (User.IsInRole("seller") || User.IsInRole("admin"))
+    {
+
+        Layout = "_businessAccLayout";
+    }
+
+}
+
+
+
+<fieldset style="border: 1px solid #000000; padding: 20px; border-radius: 10px;  margin: 65px">
+    <legend style=" color:#000000; padding: 5px 6px; margin:4px 52px; width: 13%;" class="align-content-center">  Edit Product </legend>
+
+
+
+    <div class="continer">
+
+
+
+        <form asp-action="Edit_product" method="post" enctype="multipart/form-data">
+            
+            <input type="hidden" asp-for="seller_id" value=@ViewBag.id />
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label style="color:black" asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label style="color:black" asp-for="price" class="control-label"></label>
+                    <input asp-for="price" class="form-control" />
+                    <span asp-validation-for="price" class="text-danger"></span>
+                </div>
+            </div>
+           
+
+            <div class="form-row">
+
+
+                <div class="form-group col-md-4">
+
+                    <label style="color:black" asp-for="prodeuctGender" class="control-label"> Gender </label>
+                    <select style="color:black" name="prodeuctGender" id="prodeuctGender" class="form-control">
+
+                        <option value="Men" class="prodeuctGender"> Men </option>
+                        <option value="Women" class="prodeuctGender"> Women  </option>
+                        <option value="Kids" class="prodeuctGender"> Kids  </option>
+                        <option value="Accessories" class="prodeuctGender"> Accessories  </option>
+                    </select>
+
+                </div>
+
+
+
+
+                <div class="form-group col-md-4">
+                    <label style="color:black" asp-for="BaseFileImg" class="control-label">Select Base Image </label>
+                    <input asp-for="BaseFileImg" name="BaseFileImg" class="form-control"  />
+                    <span asp-validation-for="BaseFileImg" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label class="control-label">Select Category </label>
+                    <select style="color:black" name="category_id" id="category_id" class="form-control">
+
+                        @foreach (var category_item in ViewBag.cat)
+                        {
+
+                            <option value="@category_item.Id">@category_item.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label style="color:black" asp-for="Img1File" class="control-label"> Select  Image 1</label>
+                    <input asp-for="Img1File" name="Img1File" class="form-control"  />
+                    <span asp-validation-for="Img1File" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label style="color:black" asp-for="Img2File" class="control-label"> Select  Image 2</label>
+                    <input asp-for="Img2File" class="form-control"  />
+                    <span asp-validation-for="Img2File" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label style="color:black" asp-for="Img3File" class="control-label">Select  Image 3</label>
+                    <input asp-for="Img3File" class="form-control"  />
+                    <span asp-validation-for="Img3File" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label style="color:black" asp-for="Code" class="control-label"></label>
+                    <input asp-for="Code" class="form-control" />
+                    <span asp-validation-for="Code" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label style="color:black" asp-for="title" class="control-label"></label>
+                    <input asp-for="title" class="form-control" />
+                    <span asp-validation-for="title" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label style="color:black" asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+
+            <div class="container" style="display: inline-block">
+                <div class="form-group" style="display: inline-block;">
+                    <input class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" type="submit" value="Edit" class="btn btn-primary" />
+                </div>
+
+                <div style="display: inline-block;">
+                    <a class="btn btn-dark" style="color:white; border: 1px solid red;  background-color: #000000" asp-action="Index" asp-controller="Home" class="btn btn-primary"> Back </a>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+</fieldset>
+
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

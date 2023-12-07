@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+@using Microsoft.AspNetCore.Mvc.Localization
+
+
+@inject IOptions<RequestLocalizationOptions> locOptions
+@{
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+}
+
+
+
+<table class="table">
+    <tr>
+        <td>Culture</td>
+        <td>
+            @requestCulture.RequestCulture.Culture.Name
+        </td>
+    </tr>
+    <tr>
+        <td>UI Culture</td>
+        <td>@requestCulture.RequestCulture.UICulture.Name</td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>@DateTime.Now.ToLongDateString()</td>
+    </tr>
+    <tr>
+        <td>Currency</td>
+        <td>@(9995.00.ToString("c"))</td>
+    </tr>
+    <tr>
+        <td>Number</td>
+        <td> @(156.ToString("F2"))</td>
+    </tr>
+
+</table>

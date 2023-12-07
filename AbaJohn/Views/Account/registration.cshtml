@@ -1,0 +1,215 @@
+﻿@model AbaJohn.ViewModel.registrationuserViewModel
+
+@{
+    ViewData["Title"] = "Registration";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="~/assets/css/styles.css">
+    <link href="~/assets/css/registrationstyle.css" rel="stylesheet" />
+
+     <!-- Css Styles bootstrap and awesome -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" type="text/css">
+
+
+
+    <title>Registration </title>
+
+</head>
+<body>
+    <div class="login">
+        <img src="~/assets/img/login-bg.png" alt="image" class="login__bg">
+
+
+        <form asp-action="login" class="login__form" id="RegesterForm">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <h1 class="login__title">Registration</h1>
+
+            <div class="login__inputs ">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div class="login__box  ">
+                            <input asp-for="user_name" placeholder="User Name" required class="login__input" />
+                            <i class="ri-user-fill"></i>
+                            <span asp-validation-for="user_name" class="text-danger"></span>
+                        </div>
+                    </div> 
+                    <div class="col-md-6">
+                        <div class="login__box  ">
+                            <input asp-for="name" placeholder="Name" required class="login__input" />
+                            <i class="fa fa-address-card"></i>
+                            
+                            <span asp-validation-for="name" class="text-danger"></span>
+                        </div>
+                    </div>
+                  
+                    
+                </div>
+                <div class="login__box">
+                    <input asp-for="email" placeholder="Email" type="email" required class="login__input" />
+                    <i class="ri-mail-fill"></i>
+                    <span asp-validation-for="email" class="text-danger"></span>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div class="login__box">
+                            <input asp-for="password" placeholder="Password" required class="login__input" />
+                            <i class="ri-lock-2-fill"></i>
+                            <span asp-validation-for="password" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="login__box">
+                            <input asp-for="confirm_password" placeholder="Confirm Password" required class="login__input" />
+                            <i class="ri-lock-2-fill"></i>
+                            <span asp-validation-for="confirm_password" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="login__box">
+
+                    <input asp-for="phone_number" placeholder="Phone Number" required class="login__input" />
+                    <i class="ri-phone-fill"></i>
+                    <span asp-validation-for="phone_number" class="text-danger"></span>
+
+
+                </div>
+                  <div class="form-row">
+                    <div class="col-md-6">
+                        <div class="login__box">
+                            <input asp-for="age" placeholder="Age" type="number" required class="login__input" />
+                            <i class="fa fa-address-book-o"></i>
+                            <span asp-validation-for="age" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="login__box">
+
+                            <select asp-for="gender" class="login__input" name="gender">
+                                <option selected class="selectgender">  Select Gender</option>
+                                <option value="male" class="selectgender"> Male </option>
+                                <option value="female"  class="selectgender"> Female  </option>
+                            </select>
+                            <i class="fa fa-transgender" aria-hidden="true"></i>
+                            <span asp-validation-for="gender" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        
+            <button type="submit" asp-controller="account" asp-action="Registration" class="login__button">Registration</button>
+
+            <div class="login__register">
+                Have an account? <a asp-action="login" asp-controller="account">Login</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+@*
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="registration" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="user_name" class="control-label"></label>
+                <input asp-for="user_name" class="form-control" />
+                <span asp-validation-for="user_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="password" class="control-label"></label>
+                <input asp-for="password" class="form-control" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="confirm_password" class="control-label"></label>
+                <input asp-for="confirm_password" class="form-control" />
+                <span asp-validation-for="confirm_password" class="text-danger"></span>
+            </div>
+         
+            <div class="form-group">
+                <label asp-for="age" class="control-label"></label>
+                <input asp-for="age" class="form-control" />
+                <span asp-validation-for="age" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="gender" class="control-label"></label>
+                <select asp-for="gender" class="form-control" name="gender">
+                    Select Gender
+                    <option> Male </option>
+                    <option> Female  </option>
+
+                </select>
+
+            <span asp-validation-for="gender" class="text-danger"> </span>
+          
+
+            </div>
+
+            <div class="form-group">
+                <label asp-for="phone_number" class="control-label"></label>
+                <input asp-for="phone_number" class="form-control" />
+                <span asp-validation-for="phone_number" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class=" btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="login" asp-controller="Account" class="btn btn-success"> Login  </a>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+*@

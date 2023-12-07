@@ -1,0 +1,179 @@
+﻿@model AbaJohn.ViewModel.ItemViewModel
+@{
+   
+
+    if (User.IsInRole("seller") || User.IsInRole("admin"))
+    {
+
+        Layout = "_businessAccLayout";
+    }
+
+}
+
+<div class="container">
+    <div class="row" style="margin:30px; padding:10px">
+
+        <table class="table table-bordered" style="text-align:center">
+
+            <tr>
+                <th>
+                    Color
+                </th>
+                <th>
+                    Size
+                </th>
+                <th>
+                    Quantity(@ViewBag.TotalQuantity)
+                </th>
+                <th>
+                    Product Name
+                </th>
+
+                <th colspan="2">
+                    Actions
+                </th>
+
+            </tr>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+
+
+                    <td>@item.Color</td>
+                    <td>@item.size</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Product.Name</td>
+                    <td>
+                        <a class="btn btn-dark" style="color:white; border: 1px solid red; background-color: #000000; " asp-action="Edit_item" asp-controller="Item" asp-route-ProductID="@item.productID"  asp-route-id="@item.ID">Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-dark" style="color:white; border: 1px solid red; background-color: #000000" asp-action="DeleteItem" asp-controller="Item" asp-route-ProductID="@item.productID" asp-route-ItemId="@item.ID" onclick="ConfirmDelete(event)">Delete</a>
+                    </td>
+                </tr>
+            }
+
+        </table>
+        <div class="col-6">
+            <a class="btn btn-dark" style="color:white;float:left ;border: 1px solid red; background-color: #000000" asp-controller="item" asp-action="AddItemToProduct"
+               asp-route-product_id="@Model.productID">Back To Product </a>
+
+        </div>
+        <div class="col-6" >
+            <a class="btn btn-dark" style="color:white;float:right; border: 1px solid red; background-color: #000000" onclick="myFunction()">Add New Item </a>
+        </div>
+      
+
+    </div>
+</div>
+   
+
+<div class="container">
+    <div class="row" style="margin:30px; padding:10px">
+        
+    </div>
+</div>
+
+
+
+
+
+ <div class="container">
+    <div class="row" style="margin:30px; padding:10px">
+        <div class="col-10">
+            <h3 style="color: #25d30e; text-align: center;margin: 10px;">
+                @ViewBag.Message
+            </h3>
+        
+           
+
+            <form asp-action="AddItemToProduct" asp-controller="Item" style="margin-bottom:15px;display:none;" id="myDIV">
+
+                      <input asp-for="productID" value="@Model.productID" type="hidden" />
+                      <input asp-for="ReturnUrl" value="@Model.ReturnUrl" type="hidden" />
+
+                <div class="row">
+
+                    <div class="col-sm">
+                        <label asp-for="Color" class="control-label"></label>
+                        <select style="color:black" asp-for="Color" name="Color" class="form-control " required>
+                            <option></option>
+                            @foreach (var item in Model.Colors)
+                            {
+                                <option value="@item.Name" class="fa " style="color: @item.Value ;">&#xf111; @item.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm">
+                        <label asp-for="size" class="control-label"></label>
+                        <select style="color:black" asp-for="size" name="size" class="form-control required">
+                            <option>No Size</option>
+                            @foreach (var item in Model.Sizes)
+                            {
+                                <option value="@item.Name" class="fa">&#xf111; @item.Value</option>
+                            }
+                        </select>
+                        <span asp-validation-for="size" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm">
+                        <label asp-for="Quantity" class="control-label"></label>
+                        <input asp-for="Quantity" class="form-control" />
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm text-center" style="margin-top:8px">
+                        <br />
+                        <input type="submit" value="ADD" class="btn btn-dark RedBoreder" />
+
+                    </div>
+
+                </div>
+             </form>
+             
+        </div>
+     
+    </div>
+    
+
+
+
+</div> 
+
+
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+
+
+
+<script>
+
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+
+
+ function ConfirmDelete() {
+         document.getElementById("")
+         var accept = confirm("Are You Sure?");
+         if (accept == false) {
+              event.preventDefault();
+            }
+        }
+
+  
+
+</script>
