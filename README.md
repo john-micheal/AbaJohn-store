@@ -12,11 +12,13 @@ Using some techniques like: Ajax , Localization & automapper and much more
 With full application to SOLID principle & IoC and Clean Code
 
 
+
 There are three modules in this project:-
 
 Admin Module
 Seller Module
 User Module
+
 
 There is also an admin panel through which we can manage the whole site like adding, updating, deleting new categories, subcategories, products. Viewing orders placed by users on the site  alread &y been sold by individual sellers.
 
@@ -29,7 +31,9 @@ Add a new Subcategory:- In this site, the admin has the provision to add a new S
 Update Category:- Admin also has the facility to update the product. If there is a need arises to delete or update any information regarding the product then the admin can easily do that.
 
 
+
 The same words were mentioned previously regarding the seller, but with his adhering to specific restrictions, unlike the admin.
+
 
 User Panel:-
 
