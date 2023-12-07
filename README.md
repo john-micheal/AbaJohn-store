@@ -16,8 +16,11 @@ With full application to SOLID principle & IoC and Clean Code
 There are three modules in this project:-
 
 Admin Module
+
 Seller Module
+
 User Module
+
 
 
 There is also an admin panel through which we can manage the whole site like adding, updating, deleting new categories, subcategories, products. Viewing orders placed by users on the site  alread &y been sold by individual sellers.
