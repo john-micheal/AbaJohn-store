@@ -6,7 +6,9 @@ This project is made in ASP.Net MVC core with SQL Server as backend (code-first)
 
 
 This web app is developed with ASP.NET MVC Core , SQl , Bootstrap, Javascript, jquery, HTML\CSS 
+
 Using some techniques like: Ajax , Localization & automapper and much more
+
 With full application to SOLID principle & IoC and Clean Code
 
 
